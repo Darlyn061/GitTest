@@ -5,7 +5,7 @@ string PigLatinTranslator(string[] args)
     string pigLatin = "";
     foreach (string word in words)
     {
-        string pigLatinWord = word.Substring(1) + word[0] + "aya";
+        string pigLatinWord = word.Substring(1) + word[0] + "ay";
         pigLatin += pigLatinWord + " ";
     }
     return pigLatin;
